@@ -1,0 +1,30 @@
+@import "tailwindcss";
+.board{
+
+background: rgba(255, 255, 255, 0.84);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(10.8px);
+-webkit-backdrop-filter: blur(10.8px);
+border: 1px solid rgba(255, 255, 255, 0.52);
+}
+body{
+    background-image: url("https://images.unsplash.com/photo-1599496675986-8282edbbcd49?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    height: 100%;
+    width: 100%
+  
+}
+.loader{
+    mix-blend-mode: multiply;
+   position: absolute;
+   left: 43%;
+   top: 30%;
+}
+.main{
+background: rgba(255, 255, 255, 0.47);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(2.3px);
+-webkit-backdrop-filter: blur(2.3px);
+border: 1px solid rgba(33, 185, 223, 0.5);
+}
